@@ -1,0 +1,81 @@
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+.v-lazy-image {
+    filter: blur(10px);
+    transition: filter 0.7s;
+}
+
+.v-lazy-image-loaded {
+    filter: blur(0);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.product-hover {
+    border: 1px solid transparent;
+}
+
+.blue-btn:hover {
+    background: #4181b6 !important;
+    color: #fff !important;
+}
+
+.my-btn-2:hover,
+.my-btn-2:focus {
+    background: #4181b6 !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+a.shadowed.gray-btn.my-btn.font-12.full-width {
+    color: white !important;
+    background-color: #a9a9a9 !important;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3D8FCB;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3D8FCB;
+}
+
+.santander-image {
+    height: 30px !important;
+}
+
+@media only screen and (max-width: 580px) {
+    // .santander-image{
+    //   height:50px;
+    // }
+}
+
+#formdiv {
+    // display:none;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:979px) {
+    body .sticky {
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: 64px;
+    }
+}
